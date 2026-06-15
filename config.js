@@ -20,8 +20,10 @@ global.APIs = { // اختصارات مواقع الـ API
   fg_ss: 'https://fg-ss.ddns.net',
   fgmods: 'https://api.fgmods.xyz'
 }
-global.APIKeys = { // مفاتيح الـ API الخاصة بالخدمات
-  '' //--- التسجيل عبر موقع https://api.fgmods.xyz/
+
+// تم إصلاح البنية هنا لمنع انهيار السيرفر
+global.APIKeys = { 
+  'https://api.fgmods.xyz': 'FREE' // يمكنك استبدال FREE بمفتاحك الخاص إذا قمت بالتسجيل في الموقع
 }
 
 // ==========================================
